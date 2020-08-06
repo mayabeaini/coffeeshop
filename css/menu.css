@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+.root__header2 {
+  font-size: 3.75rem;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.root__header3 {
+  font-size: 2.0625rem;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+
+.root__header2, .root__header3 {
+  text-align: center;
+  color: #393939;
+}
+
+.nav__main {
+  background-color: #FFF0ED;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__main--heading {
+  text-decoration: none;
+  color: #393939;
+  font-size: 3.125rem;
+  margin-right: 40px;
+}
+
+.nav__main-link {
+  margin-right: 25px;
+  color: #393939;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.nav__main-link--shop {
+  color: #5BACC3;
+}
+
+.nav__list {
+  font-size: 1.3125rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav__inline-block {
+  display: inline-block;
+}
+
+.nav__logo {
+  height: 3.125rem;
+}
+
+.nav__background-image {
+  background-image: url("../assets/coffee-circle.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 35.938rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: -2;
+}
+
+.nav__background--border {
+  width: 285px;
+  height: 185px;
+  border: 4px solid #5BACC3;
+  position: relative;
+  bottom: 10px;
+  right: 15px;
+}
+
+.nav__menu {
+  background-color: #393939;
+  text-align: center;
+  padding: 20px;
+}
+
+.nav__menu--list {
+  color: #FFF;
+  border-left: 2px solid #5BACC3;
+  padding-left: 12px;
+  padding-right: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.root__header1 {
+  font-size: 3.75rem;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+.root__header1--menu {
+  color: #FFF;
+  background-color: rgba(70, 70, 70, 0.97);
+  width: 17.813rem;
+  height: 11.563rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1% 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: -1;
+  top: 15px;
+  left: 15px;
+}
+
+.main__background {
+  background-color: #FFF0ED;
+}
+
+.main__background--middle {
+  background-color: #f7f7f7;
+}
+
+.main__paragraph {
+  font-style: italic;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.main__paragraph--price {
+  color: #5BACC3;
+  font-style: normal;
+  font-weight: 400;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+/*# sourceMappingURL=menu.css.map */
